@@ -1,9 +1,12 @@
-# MULTICONN.PY
-# Efficient multilayer network search algorithm. Find nodes of interest faster and more accurately with 
-# the multiple-version Multilayer Connotation Discovery Algorithm, or MultiConn. 
-# Written by Kushagro Bhattacharjee and Caroline Lahti, under the supervision of 
-# Dr. Ralucca Gera (Naval Postgraduate School) and Prof. Karl Schmitt (Valparaiso University), 
-# sponsored by the Department of Defense.
+# multiconn.py
+
+'''
+Efficient multilayer network search algorithm. Find nodes of interest faster and more accurately with 
+the multiple-version Multilayer Connotation Discovery Algorithm, or MultiConn. 
+Written by Kushagro Bhattacharjee and Caroline Lahti, under the supervision of 
+Dr. Ralucca Gera (Naval Postgraduate School) and Prof. Karl Schmitt (Valparaiso University), 
+sponsored by the Department of Defense.
+'''
 
 '''
 MultiConn is a new multilayer search algorithm. A given network is separated into layers of edges, according to their level of interest. 
